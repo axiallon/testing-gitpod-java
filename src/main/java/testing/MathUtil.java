@@ -2,9 +2,10 @@ package testing;
 
 public class MathUtil {
 
-        /** Returns the smallest number from an array of numbers.
-        /* It should return 0 if the array is empty or null.
-        */
+        /**
+         * Returns the smallest number from an array of numbers.
+         * It should return 0 if the array is empty or null.
+         */
         public static int findMin(int[] nums) {
             int min = nums[nums.length-1];
 

@@ -17,7 +17,10 @@ public class OddServiceTest {
      */
     @Test
     public void testOddServiceTrue() {
-        assertEquals("test", "test");
+        int[] input = new int[] { 1, 2, 34, 3, 4, 5, 7, 23, 12 };
+        OddService service = new OddService();
+        boolean result = service.hasThreeConsecutiveOdds(input);
+        assertTrue(result);
     }
 
     /**
@@ -26,7 +29,10 @@ public class OddServiceTest {
      */
     @Test
     public void testOddServiceFalse() {
-        assertEquals("test", "test");
+        int[] input = new int[] { 2, 6, 4, 1 };
+        OddService service = new OddService();
+        boolean result = service.hasThreeConsecutiveOdds(input);
+        assertFalse(result);
     }
 
 }

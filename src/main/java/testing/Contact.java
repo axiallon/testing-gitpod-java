@@ -7,9 +7,7 @@ public class Contact {
     public String city;
     public String country;
 
-
     public Contact() {
-
     }
 
     public Contact(String firstName, String lastName, String streetName, String city) {

@@ -6,7 +6,7 @@ import java.util.List;
 
 public class UnitTests {
 
-        public static void main(String[] args) {
+    public static void main(String[] args) {
         UnitTests test = new UnitTests();
         test.testOne();
         test.testTwo();
@@ -16,7 +16,7 @@ public class UnitTests {
 
     /**
      * Command to run test:
-     *     mvn -Dtest=UnitTests#testOne
+     *     mvn -Dtest=UnitTests#testOne test
      */
     @Test
     public void testOne() {
@@ -29,7 +29,7 @@ public class UnitTests {
 
     /**
      * Command to run test:
-     *     mvn -Dtest=UnitTests#testTwo
+     *     mvn -Dtest=UnitTests#testTwo test
      */
     @Test
     public void testTwo() {
@@ -42,7 +42,7 @@ public class UnitTests {
 
     /**
      * Command to run test:
-     *     mvn -Dtest=UnitTests#testThree
+     *     mvn -Dtest=UnitTests#testThree test
      */
     @Test
     public void testThree() {
@@ -55,7 +55,7 @@ public class UnitTests {
 
     /**
      * Command to run test:
-     *     mvn -Dtest=UnitTests#testFour
+     *     mvn -Dtest=UnitTests#testFour test
      */
     @Test
     public void testFour() {

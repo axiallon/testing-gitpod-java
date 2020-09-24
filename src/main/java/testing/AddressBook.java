@@ -18,7 +18,7 @@ public class AddressBook {
     public static List<Contact> getContacts() {
         List<Contact> contacts = new ArrayList<Contact>();
         contacts.add(new Contact("John", "Doe", "Main St.", "London"));
-        contacts.add(new Contact("Billy", "Bob", "Fourth Ave.", "Westchestertonfieldville", "United States"));
+        contacts.add(new Contact("Billy", "Bob", "Fourth Ave.", null, "United States"));
         contacts.add(new Contact("Sam", "Smith", "Baker Blvd.", "Sacramento"));
         return contacts;
     }
