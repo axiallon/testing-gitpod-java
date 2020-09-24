@@ -4,10 +4,10 @@ import org.junit.jupiter.api.Test;
 import static org.junit.jupiter.api.Assertions.*;
 import java.util.List;
 
-public class UnitTests {
+public class UnitTest {
 
     public static void main(String[] args) {
-        UnitTests test = new UnitTests();
+        UnitTest test = new UnitTest();
         test.testOne();
         test.testTwo();
         test.testThree();
