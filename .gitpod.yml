@@ -1,6 +1,2 @@
 tasks:
   - prebuild: mvn install -DskipTests
-
-vscode:
-  extensions:
-    - vscjava.vscode-java-test@0.24.1:adMLnibuhohxpDp7AmLe9g==
