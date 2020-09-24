@@ -1,2 +1,2 @@
 tasks:
-  - prebuild: mvn install
+  - prebuild: mvn install -DskipTests
